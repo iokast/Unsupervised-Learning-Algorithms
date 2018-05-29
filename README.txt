@@ -1,0 +1,36 @@
+-This file contains the instructions for how to run the code for Assignment 3
+-
+-NOTE: Code in this report was modified from code written by Jonathan Tay (https://github.com/JonathanTay)
+-
+-Reports:
+-1) bwetzel6-analysis.pdf - Assignment 3 report
+-
+-Code Files: 
+-1) parse.py - code to parse raw data files for this project
+-2) helpers.py - Miscellaneous helper functions
+-3) main.py - contains bulk of code implemented (dimensionality reduction, clustering, NN implementation)
+-4) time.py - time experiments for clustering and neural networks
+-
+-There are also a number of folders
+-1) P1_Clustering_Algorithms_Original - Output folder for clustering of the original dataset
+-2) P2_Dimensionality_Reduction - Output folder for dimensionality reduction experiments
+-3) P3_Clustering_Algorithms_Reduced - Output folder for clustering of dimensionally reduced datasets
+-4) P4_Neural_Networks_Reduced - Output folder for NN results run with dimensionally reduced datasets
+-5) P5_Neural_Networks_Reduced_With_Clusters - Output folder for NN results run with dimensionally reduced datasets with added cluster features
+-6) Data Compilation - Contains excel files containing data and plots used in report
+-
+-Additional Files
+-1) segmentation.csv - original Madelon data from the UCI ML repository
+-2) bwetzel6-analysis.pdf - Assignment 3 report
+-3) README.txt - this readme file
+-
+-To run the experiments:
+-1) Run parse.py to generate the data files from the original data
+-2) Run main.py and time.py
+-
+-The assignment code is written in Python 3.6.3. Library dependencies are: 
+-numpy: 1.13.3
+-pandas: 0.20.3
+-sklearn: 0.19.1
+-
+-
